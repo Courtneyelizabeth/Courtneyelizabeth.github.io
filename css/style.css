@@ -1,6 +1,16 @@
+{margin: 0; padding: 0; }
+html {font-size: 62.5%; }
+body {color: #333333 background: #e8ecf0;}
 h1 {
-	color: burlywood;
+	font: bold 4.2rem Helvitca, Arial, sans-serif; margin: 0,0,0.5em;
+	color: #333333;
 }
-#abouttitle{color: green;}
-h2{color: red;
+#abouttitle{color: #333333;}
+h2{font: bold 1.8rem Helvitca, Arial, sans-serif; margin: 0,0, 1em;
+}
+p, ul, dl, ol, table {
+	font-size: 16px; margin: 0,0, 1.5em;
+}
+.snow p {
+	font-weight: 300;
 }
