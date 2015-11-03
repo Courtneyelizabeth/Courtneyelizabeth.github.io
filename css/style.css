@@ -1,16 +1,36 @@
+<style>
 {margin: 0; padding: 0; }
-html {font-size: 62.5%; }
-body {color: #333333 background: #e8ecf0;}
-h1 {
+html {font-size: 35.5%; 
+}
+body {color: #333333 background: #e8ecf0;
+}
+#header {
+	background-color: #eeeeee;
 	font: bold 4.2rem Helvitca, Arial, sans-serif; margin: 0,0,0.5em;
 	color: #333333;
+	text-align: center;
+	padding: 5px;
 }
-#abouttitle{color: #333333;}
-h2{font: bold 1.8rem Helvitca, Arial, sans-serif; margin: 0,0, 1em;
+#nav {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 300px;
+	width: 100px;
+	float: left;
+	padding: 5px;
 }
-p, ul, dl, ol, table {
-	font-size: 16px; margin: 0,0, 1.5em;
+#section {
+	width: 350px;
+	float: left;
+	padding: 10px;
 }
-.snow p {
-	font-weight: 300;
+
+
+#footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
 }
+</style>
