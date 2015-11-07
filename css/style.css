@@ -1,36 +1,67 @@
 <style>
-{margin: 0; padding: 0; }
-html {font-size: 35.5%; 
+{margin: 0; padding: 5px;}
+html {
+
 }
-body {color: #333333 background: #e8ecf0;
+body {
+	color: #444; background: #f9f9f9;
+	letter-spacing: 2px;
+	line-height: 24px;
+	margin: 0px 5px;
+	text-transform: uppercase;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+a:link, a:visited {
+	display: block;
+	widows: 120px;
+	font-weight: bold;
+	color: #444;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover, a:active {
+	background-color:#eeeeee;
+
 }
 #header {
 	background-color: #eeeeee;
-	font: bold 4.2rem Helvitca, Arial, sans-serif; margin: 0,0,0.5em;
-	color: #333333;
+	font: bold Arial, Helvetica, Sans-serif;
+	font-size: 10px;
 	text-align: center;
-	padding: 5px;
+	padding: 6px 15px;
 }
 #nav {
-	line-height: 30px;
-	background-color: #eeeeee;
-	height: 300px;
-	width: 100px;
-	float: left;
-	padding: 5px;
+	line-height: 20px;
+	background-color: ;
+	height: 100px;
+	width: 700px;
+	float: inline;
+	padding: 0.2px;
+	font-size: 11px;
+
 }
 #section {
-	width: 350px;
-	float: left;
+	width: 700px;
+	width: left;
 	padding: 10px;
+	font-size: 8px;
 }
-
-
 #footer {
-	background-color: black;
-	color: white;
+	background-color: #eeeeee
+	text: white;
 	clear: both;
 	text-align: center;
 	padding: 5px;
+	font-size: 8px;
 }
 </style>
