@@ -1,17 +1,18 @@
-<style>
-{margin: 0; padding: 5px;}
+
 html {
 	margin: 0;
 	padding: 0;
 }
 body {
-	color: #444; background:  #f9f9f9 url(Nederland.jpg) no-repeat;;
+	color: #444; background:  #f9f9f9 
 	letter-spacing: 2px;
 	line-height: 24px;
 	text-transform: uppercase;
 	margin: 0px 5px;
 }
-
+.bodya{background: url('../Images/Matterhorn.jpg') no-repeat; opacity: 0.9;
+background-size: cover;
+}
 .header {
 	background-color: #eeeeee;
 	font: bold Arial, Helvetica, Sans-serif;
@@ -22,24 +23,24 @@ body {
 #first{
 	font-size: 2px;
 }
-.nav {
+.top-bar {
 	line-height: 20px;
 	background-color: ;
 	height: 75px;
-	padding: 0.2px;
+	padding: 0.2px; 
 	font-size: 11px; 
 	text-align: center;
 	width: 1090px;
 	margin: auto;
 }
-.nav ul {
+.top-bar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	display: inline-block;
 }
-.nav li {
+.top-bar li {
 	float: left;
 }
 a:link, a:visited {
@@ -55,12 +56,12 @@ a:link, a:visited {
 a:hover, a:active {
 	color: #fffff0 
 }
-.section {
-	width: inherit;
-	width: center;
+ .main-content {
+	width: 300px;
+	margin: auto;
 	padding: 5px;
 	font-size: 2px;
-	background-color:;
+	background-color: gray;
 	text-align: center;
 }
 .container {
