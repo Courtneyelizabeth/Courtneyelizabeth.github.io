@@ -1,8 +1,5 @@
 
-/*html {
-	margin: 0;
-	padding: 0;
-}
+/*
 body {
 	color: #444; 
 	line-height: 24px;
@@ -89,8 +86,8 @@ a:hover, a:active {
 </style>*/
 
 html {
-	font-size: 100%;
-	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
 
 }
 body{
@@ -118,30 +115,47 @@ body{
 	letter-spacing: 4.5px;
 	text-transform: uppercase;
 }
-.navigation-container{
-	min-height: 40px;
-	border-top: 1px solid #DEDEDE;
-	border-bottom: 1px solid #DEDEDE;
+/* Top Navigation Bar */
+
+.navigation-bar ul{
+	padding: 0px;
+	text-align: center;
 }
-#navigation-bar ul{
-	list-style-type: none;
-	display: inline-block;
+.navigation-bar li {
+ 	display: inline; 
 }
-#navigation-bar li{
-	float: left;
-	min-height: 30px;
-	z-index: 99999;
+.navigation-bar a{
+	font-size: 13px;
+	font-family: sans-serif,arial, Helvetica;
+	text-decoration: none;
+	padding-right: 1em;
+	padding-left: 1em;
+	line-height: 2em;
+	margin-right: 25px;
+	letter-spacing: 1.5px;
+	line-height: 1.5em;
 }
-}
+
 a:link, a:visited {
 	color: #747474;
 }
 a:hover, a:active {
 	color: #444
 }
+#navigation-container{
+	min-height: 25px;
+	border-top: 1px solid #DEDEDE;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+/* End Navigation Bar */
+
+/* Start Banner Container */
 #banner-container{
-	position: relative;
-	margin-bottom: 30px;
-	z-index: 8;
+	background-color: red;
 	overflow: hidden;
+	position: relative;
+	width: 100%;
+	margin: 30px;
+
 }
