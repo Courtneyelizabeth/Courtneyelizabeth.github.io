@@ -159,32 +159,19 @@ a:hover, a:active {
 	margin: 30px;
 
 }
-/*header*/
-header {
-	width: 800px;
-	margin: 5px;
-}
-header h1 {
-	font: 12px/1.5 Sans-serif, arial, Helvetica;
-	color: #747474;
-	display: inline;
-	letter-spacing: 1.5px;
-}
-header p {
-	font: 100 12px/1.5 Helvetica, Verdana, Sans-serif;
-}
 /*Photobanner*/
 .photobanner {
-	height: 233px;
+	height: 400px;
 	width: 3550px;
 	margin-bottom: 30px;
+
 }
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 60s linear infinite;
-		-moz-animation: bannermove 60s linear infinite;
-			-ms-animation: bannermove 60s linear infinite;
-			-o-animation: bannermove 60s linear infinite;
+	-webkit-animation: bannermove 65s linear infinite;
+		-moz-animation: bannermove 65s linear infinite;
+			-ms-animation: bannermove 65s linear infinite;
+			-o-animation: bannermove 65s linear infinite;
 }
 @keyframes "bannermove" {
 	0% {
@@ -226,4 +213,4 @@ header p {
 	margin-left: -2125px;
 }	
 }
-
+*/
