@@ -1,97 +1,14 @@
 
-/*
-body {
-	color: #444; 
-	line-height: 24px;
-	margin: 0px 5px;
-	letter-spacing: 2.5px;
-}
+
 /*.bodya{background: url('../Images/Lucerne.jpg') no-repeat;
 background-size: cover; opacity: 0.5;
-}
-.header {
-	background-color: white;
-	font: bold Sans-serif, Arial, Helvetica;
-	font-size: 13px;
-	text-align: center;
-	padding: 10px 0px; 
-	letter-spacing: 4.5px;
-	text-transform: uppercase;
-}
-#first{
-	font-size: 2px;
-}
-.top-bar {
-	line-height: 1.5em;
-	height: 75px;
-	padding: 0.2px; 
-	font-size: 13px; 
-	text-align: center;
-	width: 1090px;
-	margin: auto;
-	font-family: sans-serif;
-}
-.top-bar ul {
-	list-style-type: none;
+}*/
+html{
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	display: inline-block;
-}
-.top-bar li {
-	float: left;
-	min-height: 30px;
-	border-top: 1px solid #DEDEDE;
-	border-bottom: 1px solid #DEDEDE;
-	z-index: 99999;
-	max-width: 1110px;
-	margin: 0 auto 25px auto;
-}
-a:link, a:visited {
-	display: block;
-	widows: 120px;
-	font-weight: bold;
-	color: #747474;
-	text-align: center;
-	padding: 20px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-a:hover, a:active {
-	color: #444
-}
-#banner-container{
-	margin-bottom: 30px;
-	color: red;
-	line-height: 1.231;
-}
- .main-content {
-	width: 300px;
-	margin: auto;
-	padding: 5px;
-	font-size: 7px;
-	background-color: white;
-	text-align: center;
-	color: #747474;
-}
-.bottom-page {
-	background-color: #eeeeee
-	text: white;
-	clear: both;
-	text-align: center;
-	padding: 340px;
-	font-size: 8px;
-
-}
-</style>*/
-
-html {
-	margin: 0;
-	padding: 0;
-
 }
 body{
-	font-size: 13px;
+	font-size: 12pt;
 	line-height: 1.231;
 	font-family: arial, sans-serif;
 }
@@ -101,20 +18,17 @@ body{
 .body-inner{
 	min-width: 320px;
 }
-.wrapper{
-	margin: 0 auto 0 auto;
-	padding: 30px;
-}
 .header {
 	padding: 45px;
 	margin: auto;
 	background-color: white;
 	font: bold Sans-serif, Arial, Helvetica;
-	font-size: 25px;
+	font-size: 20pt;
 	text-align: center; 
 	letter-spacing: 4.5px;
 	text-transform: uppercase;
 }
+
 /* Top Navigation Bar */
 
 .navigation-bar ul{
@@ -125,7 +39,7 @@ body{
  	display: inline; 
 }
 .navigation-bar a{
-	font-size: 13px;
+	font-size: 10pt;
 	font-family: sans-serif,arial, Helvetica;
 	text-decoration: none;
 	padding-right: 1em;
@@ -133,7 +47,6 @@ body{
 	line-height: 2em;
 	margin-right: 25px;
 	letter-spacing: 1.5px;
-	line-height: 1.5em;
 }
 
 a:link, a:visited {
@@ -167,6 +80,7 @@ a:hover, a:active {
 
 }
 /*keyframe animations*/
+/*
 .first {
 	-webkit-animation: bannermove 65s linear infinite;
 		-moz-animation: bannermove 65s linear infinite;
@@ -178,7 +92,7 @@ a:hover, a:active {
 		margin-left: 0px;
 	}
 	100% {
-		margin-left: -2125px;
+		margin-left: -3225px;
 	}
 }	
 @-moz-keyframes bannermove {
@@ -186,7 +100,7 @@ a:hover, a:active {
 	margin-left: 0px;
 }	
 100% {
-	margin-left: -2125px;
+	margin-left: -3225px;
 }
 }
 @-webkit-keyframes "bannermove"{
@@ -194,7 +108,7 @@ a:hover, a:active {
 	margin-left: 0px;
 }
 100% {
-	margin-left: -2125px;
+	margin-left: -3225px;
 }
 }
 @-ms-keyframes "bannermove" {
@@ -202,7 +116,7 @@ a:hover, a:active {
 		margin-left: 0px;
 	}
 100% {
-	margin-left: -2125px;
+	margin-left: -3225px;
 }
 }
 @-o-keyframes "bannermove" {
@@ -210,7 +124,34 @@ a:hover, a:active {
 	margin-left: 0px;
 }
 100% {
-	margin-left: -2125px;
+	margin-left: -3225px;
 }	
 }
 */
+.subheader{
+	display: block;
+	width: fill;
+	height: 100px;
+	font-size: 20pt;
+	line-height: 1.5em;
+	color: #747474;
+	border-top: 1.2px solid #DEDEDE;
+	border-bottom: 1.2px solid #DEDEDE;
+	font-family: 'Fanwoodtextitalic', Arial, sans-serif; 
+  	text-align: center;
+  	padding-top: 25px;
+}
+.sectiongroup{
+	padding: 12px;
+	background-color: white;
+}
+.introbox{
+	display: inline;
+}
+footer{
+	font-size: 9pt;
+	font-style: italic;
+	line-height: 12px;
+	text-align: center;
+	padding-top: 30px;
+}
