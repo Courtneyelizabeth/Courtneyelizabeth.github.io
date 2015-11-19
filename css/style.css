@@ -80,7 +80,7 @@ a:hover, a:active {
 
 }
 /*keyframe animations*/
-/*
+
 .first {
 	-webkit-animation: bannermove 65s linear infinite;
 		-moz-animation: bannermove 65s linear infinite;
@@ -127,7 +127,7 @@ a:hover, a:active {
 	margin-left: -3225px;
 }	
 }
-*/
+
 .subheader{
 	display: block;
 	width: fill;
