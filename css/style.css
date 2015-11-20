@@ -11,9 +11,10 @@ body{
 	font-size: 12pt;
 	line-height: 1.231;
 	font-family: arial, sans-serif;
+	vertical-align: baseline;
 }
-.body-background{
-
+figcaption, figure, footer, header, nav {
+	display: block;
 }
 .body-inner{
 	min-width: 320px;
@@ -28,6 +29,11 @@ body{
 	letter-spacing: 4.5px;
 	text-transform: uppercase;
 }
+#belowheader {
+	font-size: 12pt;
+	letter-spacing: 1.2px;
+	padding-top: 10px;
+}
 
 /* Top Navigation Bar */
 
@@ -39,7 +45,7 @@ body{
  	display: inline; 
 }
 .navigation-bar a{
-	font-size: 10pt;
+	font-size: 12pt;
 	font-family: sans-serif,arial, Helvetica;
 	text-decoration: none;
 	padding-right: 1em;
@@ -50,10 +56,10 @@ body{
 }
 
 a:link, a:visited {
-	color: #747474;
+	color: #444;
 }
 a:hover, a:active {
-	color: #444
+	color: #747474
 }
 #navigation-container{
 	min-height: 25px;
@@ -62,96 +68,51 @@ a:hover, a:active {
 }
 
 /* End Navigation Bar */
-
-/* Start Banner Container */
-#banner-container{
-	background: white;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	margin: 30px;
-
+.gallery{
+	line-height: normal;
+	text-align: center;
+	padding-top: 60px;
 }
-/*Photobanner*/
-.photobanner {
-	height: 400px;
-	width: 3550px;
-	margin-bottom: 30px;
-
-}
-/*keyframe animations*/
-
-.first {
-	-webkit-animation: bannermove 65s linear infinite;
-		-moz-animation: bannermove 65s linear infinite;
-			-ms-animation: bannermove 65s linear infinite;
-			-o-animation: bannermove 65s linear infinite;
-}
-@keyframes "bannermove" {
-	0% {
-		margin-left: 0px;
-	}
-	100% {
-		margin-left: -3225px;
-	}
-}	
-@-moz-keyframes bannermove {
-0% {
-	margin-left: 0px;
-}	
-100% {
-	margin-left: -3225px;
-}
-}
-@-webkit-keyframes "bannermove"{
-0% {
-	margin-left: 0px;
-}
-100% {
-	margin-left: -3225px;
-}
-}
-@-ms-keyframes "bannermove" {
-	0%{
-		margin-left: 0px;
-	}
-100% {
-	margin-left: -3225px;
-}
-}
-@-o-keyframes "bannermove" {
-0% {
-	margin-left: 0px;
-}
-100% {
-	margin-left: -3225px;
-}	
-}
-
 .subheader{
+	clear: both;
 	display: block;
 	width: fill;
-	height: 100px;
+	height: 60px;
 	font-size: 20pt;
 	line-height: 1.5em;
 	color: #747474;
 	border-top: 1.2px solid #DEDEDE;
 	border-bottom: 1.2px solid #DEDEDE;
-	font-family: 'Fanwoodtextitalic', Arial, sans-serif; 
+	font-family: 'Sans-serif, Arial, Helvetica'; 
   	text-align: center;
-  	padding-top: 25px;
-}
-.sectiongroup{
-	padding: 12px;
-	background-color: white;
-}
-.introbox{
-	display: inline;
+  	padding-top: 20px;
 }
 footer{
+	clear: both;
 	font-size: 9pt;
 	font-style: italic;
 	line-height: 12px;
 	text-align: center;
 	padding-top: 30px;
+}
+figure img {
+	border: 1px solid #fff;
+	background-color: #fff;
+	padding-bottom: 2px;
+	padding-top: 9px;
+}
+figcaption {
+	font-style: 13pt Sans-serif, arial, Helvetica;
+	text-align: center; 
+	margin: 10px 0 0 0;
+	letter-spacing: 2.0px;
+	color: #444;
+	line-height: 1.5em;
+	text-transform: uppercase;
+}
+figure {
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	margin: 0 45px 45px 45px;
 }
