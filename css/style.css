@@ -8,31 +8,32 @@ html{
 	padding: 0;
 }
 body{
-	font-size: 12pt;
-	line-height: 1.231;
-	font-family: arial, sans-serif;
+
 	vertical-align: baseline;
 }
 figcaption, figure, footer, header, nav {
 	display: block;
 }
-.body-inner{
-	min-width: 320px;
-}
+
 .header {
 	padding: 45px;
 	margin: auto;
 	background-color: white;
-	font: bold Sans-serif, Arial, Helvetica;
-	font-size: 20pt;
+	font-family: bold Heiti Tc, Sans-serif, Arial, Helvetica;
+	font-size: 23pt;
 	text-align: center; 
 	letter-spacing: 4.5px;
 	text-transform: uppercase;
 }
 #belowheader {
-	font-size: 12pt;
+	font-size: 14pt;
 	letter-spacing: 1.2px;
 	padding-top: 10px;
+	font-family: apple-chancery, sans-serif, arial, Helvetica;
+	text-transform: none;
+}
+#headerlink{
+	text-decoration: none;
 }
 
 /* Top Navigation Bar */
@@ -45,12 +46,12 @@ figcaption, figure, footer, header, nav {
  	display: inline; 
 }
 .navigation-bar a{
-	font-size: 12pt;
-	font-family: sans-serif,arial, Helvetica;
+	font-size: 11pt;
+	font-family: Heiti Tc, sans-serif,arial, Helvetica;
 	text-decoration: none;
 	padding-right: 1em;
 	padding-left: 1em;
-	line-height: 2em;
+	line-height: 1em;
 	margin-right: 25px;
 	letter-spacing: 1.5px;
 }
@@ -62,7 +63,6 @@ a:hover, a:active {
 	color: #747474
 }
 #navigation-container{
-	min-height: 25px;
 	border-top: 1px solid #DEDEDE;
 	border-bottom: 1px solid #DEDEDE;
 }
@@ -73,27 +73,44 @@ a:hover, a:active {
 	text-align: center;
 	padding-top: 60px;
 }
-.subheader{
+.subfooter{
 	clear: both;
 	display: block;
 	width: fill;
 	height: 60px;
-	font-size: 20pt;
+	font-size: 22pt;
 	line-height: 1.5em;
 	color: #747474;
 	border-top: 1.2px solid #DEDEDE;
 	border-bottom: 1.2px solid #DEDEDE;
-	font-family: 'Sans-serif, Arial, Helvetica'; 
+	font-family: apple-chancery, Sans-serif, Arial, Helvetica; 
   	text-align: center;
   	padding-top: 20px;
+}
+.feature{
+	font-family: apple-chancery, sans-serif, Arial, Helvetica;
+	color: #444;
+	font-size: 22pt;
+	line-height: 2;
+	letter-spacing: 1.5px;
+	padding-right: 15px;
+	padding-left: 20px;
+}
+.about{
+	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 footer{
 	clear: both;
 	font-size: 9pt;
-	font-style: italic;
+	font-family: Heiti Tc, arial, sans-serif, Helvetica;
 	line-height: 12px;
 	text-align: center;
 	padding-top: 30px;
+	font-style: italic;
 }
 figure img {
 	border: 1px solid #fff;
@@ -102,7 +119,7 @@ figure img {
 	padding-top: 9px;
 }
 figcaption {
-	font-style: 13pt Sans-serif, arial, Helvetica;
+	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
 	text-align: center; 
 	margin: 10px 0 0 0;
 	letter-spacing: 2.0px;
