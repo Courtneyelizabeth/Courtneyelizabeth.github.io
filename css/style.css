@@ -11,7 +11,7 @@ body{
 
 	vertical-align: baseline;
 }
-figcaption, figure, footer, header, nav {
+figcaption, figure, footer, header, nav, aside, {
 	display: block;
 }
 
@@ -102,6 +102,17 @@ a:hover, a:active {
 	line-height: 1.5;
 	padding-right: 25px;
 	padding-left: 25px;
+}
+.quote img{
+	float: left;
+}
+
+.quote aside{
+	display: inline;
+	text-align: center;
+	font-family: apple-chancery, sans-serif, arial, Helvetica;
+	line-height: 2;
+	font-size: 20pt;
 }
 footer{
 	clear: both;
