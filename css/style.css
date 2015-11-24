@@ -108,10 +108,9 @@ a:hover, a:active {
 }
 
 .quote aside{
-	display: inline;
 	text-align: center;
 	font-family: apple-chancery, sans-serif, arial, Helvetica;
-	line-height: 2;
+	line-height: 1.7;
 	font-size: 20pt;
 }
 footer{
