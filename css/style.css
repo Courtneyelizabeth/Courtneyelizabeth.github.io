@@ -11,7 +11,7 @@ body{
 
 	vertical-align: baseline;
 }
-figcaption, figure, footer, header, nav, aside, {
+figcaption, figure, footer, header, nav, aside,{
 	display: block;
 }
 
@@ -34,6 +34,7 @@ figcaption, figure, footer, header, nav, aside, {
 }
 #headerlink{
 	text-decoration: none;
+
 }
 
 /* Top Navigation Bar */
@@ -65,6 +66,28 @@ a:hover, a:active {
 #navigation-container{
 	border-top: 1px solid #DEDEDE;
 	border-bottom: 1px solid #DEDEDE;
+}
+.nav-bar ul{
+	padding-right: 70px;
+	text-align: right;
+}
+.nav-bar li{
+	display: inline;
+}
+.nav-bar a{
+	display: inline;
+	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
+	font-size: 12pt;
+	text-decoration: none;
+	padding-right: 1em;
+	padding-left: 1em;
+	margin-right: 25px;
+	letter-spacing: 0.2px;
+
+}
+#nav-container {
+	padding-bottom: 20px;
+
 }
 
 /* End Navigation Bar */
@@ -142,4 +165,29 @@ figure {
 	vertical-align: top;
 	width: 400px;
 	margin: 0 45px 45px 45px;
+}
+.imagelinks{
+	text-decoration: none;
+}
+.linkheader{
+	padding: 30px;
+	margin: auto;
+	background-color: white;
+	font-family: bold Heiti Tc, Sans-serif, Arial, Helvetica;
+	font-size: 23pt;
+	text-align: left; 
+	letter-spacing: 4.5px;
+	text-transform: uppercase;
+
+}
+
+h2{
+	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
+	text-align: right; 
+	margin: 0px 200px 0px 900px;
+	letter-spacing: 2.0px;
+	color: #444;
+	line-height: 1.5em;
+	text-transform: uppercase;
+
 }
