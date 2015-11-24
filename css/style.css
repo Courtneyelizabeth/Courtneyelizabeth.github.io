@@ -181,7 +181,7 @@ figure {
 
 }
 
-h2{
+.forever{
 	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
 	text-align: right; 
 	margin: 0px 200px 0px 900px;
@@ -190,4 +190,7 @@ h2{
 	line-height: 1.5em;
 	text-transform: uppercase;
 
+}
+.fgallery{
+	
 }
