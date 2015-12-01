@@ -39,14 +39,14 @@ figcaption, figure, footer, header, nav, aside,{
 
 /* Top Navigation Bar */
 
-.navigation-bar ul{
+.main-nav ul{
 	padding: 0px;
 	text-align: center;
 }
-.navigation-bar li {
+.main-nav li {
  	display: inline; 
 }
-.navigation-bar a{
+.main-nav a{
 	font-size: 11pt;
 	font-family: Heiti Tc, sans-serif,arial, Helvetica;
 	text-decoration: none;
@@ -77,16 +77,14 @@ a:hover, a:active {
 .nav-bar a{
 	display: inline;
 	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
-	font-size: 12pt;
+	font-size: 11pt;
 	text-decoration: none;
-	padding-right: 1em;
-	padding-left: 1em;
 	margin-right: 25px;
 	letter-spacing: 0.2px;
 
 }
 #nav-container {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 
 }
 
@@ -94,7 +92,7 @@ a:hover, a:active {
 .gallery{
 	line-height: normal;
 	text-align: center;
-	padding-top: 60px;
+	padding-top: 15px;
 }
 .subfooter{
 	clear: both;
@@ -170,7 +168,7 @@ figure {
 	text-decoration: none;
 }
 .linkheader{
-	padding: 30px;
+	padding: 25px;
 	margin: auto;
 	background-color: white;
 	font-family: bold Heiti Tc, Sans-serif, Arial, Helvetica;
@@ -181,16 +179,32 @@ figure {
 
 }
 
-.forever{
+.underheading{
+	text-align: center;
+	font-size: 12pt;
 	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
-	text-align: right; 
-	margin: 0px 200px 0px 900px;
+	color: #444;
+	letter-spacing: 1.2px;
+}
+.fgallery img{
+	display: inline; 
+	width: 40%;
+	max-height: 40%;
+	margin: 0px;
+
+}
+h1{
+	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
+	text-align: center; 
 	letter-spacing: 2.0px;
 	color: #444;
 	line-height: 1.5em;
 	text-transform: uppercase;
-
+	padding-bottom: 2px;
+	font-size: 20pt;
+	padding-top: 15px;
 }
-.fgallery{
-	
+
+h3{
+	padding-bottom: 20px;
 }
