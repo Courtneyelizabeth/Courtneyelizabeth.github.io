@@ -116,12 +116,14 @@ a:hover, a:active {
 }
 .about{
 	float: right;
-	width: 600px;
+	width: 565px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	padding-right: 25px;
-	padding-left: 25px;
+	padding-left: 20px;
+	margin-left: 15px;
+	margin-right: 10px;
 	font-size: 10pt;
 }
 footer{
@@ -201,5 +203,8 @@ h3{
 	padding-left: 4px;
 	font-size: 10pt;
 
+}
+.imageleft {
+	padding-right: 20px;
 }
 
