@@ -193,7 +193,7 @@ h3{
 	padding-bottom: 20px;
 }
 div .imageleft{
-	float: left;
+	float: top, left;
 	display: inline-block;
 	padding-top: 1px;
 	
