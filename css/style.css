@@ -192,24 +192,7 @@ h1{
 h3{
 	padding-bottom: 20px;
 }
-div .imageleft{
-	float: top, left;
-	display: inline-block;
-	padding-top: 1px;
-	
-}
-aside {
-	display: inline;
-	float: right;
-	width: 600px;
-	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
-	letter-spacing: 0.2px;
-	line-height: 1.5;
-	padding-right: 15px;
-	padding-left: 1px;
-	font-size: 10pt;
 
-}
 .about2{
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
@@ -219,3 +202,4 @@ aside {
 	font-size: 10pt;
 
 }
+
