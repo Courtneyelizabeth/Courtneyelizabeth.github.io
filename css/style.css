@@ -112,7 +112,7 @@ a:hover, a:active {
 	line-height: 1;
 	letter-spacing: 1.5px;
 	text-align: left;
-	margin-left: 25px;
+	margin-left: 5px;
 }
 .about{
 	float: right;
@@ -194,6 +194,7 @@ h3{
 }
 div .imageleft{
 	float: left;
+	display: inline;
 	clear: all;
 	padding-top: 20px;
 	text-align: center;
@@ -201,6 +202,7 @@ div .imageleft{
 	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
 }
 aside {
+	display: inline;
 	float: right;
 	width: 600px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
@@ -217,4 +219,5 @@ aside {
 	padding-right: 25px;
 	padding-left: 4px;
 	font-size: 10pt;
+
 }
