@@ -113,18 +113,17 @@ a:hover, a:active {
 	line-height: 1;
 	letter-spacing: 1.5px;
 	text-align: left;
-	margin-left: 5px;
+	margin-left: 50px;
 }
 .about{
 	float: right;
-	width: 565px;
+	width: 646px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
-	padding-right: 25px;
-	padding-left: 15px;
-	margin-left: 15px;
-	margin-right: 10px;
+	padding-right: 5px;
+	margin-left: 1px;
+	margin-right: 90px;
 	font-size: 10pt;
 }
 footer{
@@ -200,14 +199,13 @@ h3{
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
-	padding-right: 25px;
-	padding-left: 4px;
+	padding-right: 5px;
+	padding-left: 5px;
 	font-size: 10pt;
+	margin-left: 10px;
 
 }
 .imageleft {
-	padding-right: 20px;
+	padding-right: 1px;
 }
-#wrapper{
-	display: absolute;
-}
+
