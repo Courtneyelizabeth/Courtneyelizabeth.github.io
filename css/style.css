@@ -117,13 +117,13 @@ a:hover, a:active {
 }
 .about{
 	float: right;
-	width: 610px;
+	width: 400px;
+	height: 400px;
+	padding: 1px;
+	margin: 1px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
-	padding-right: 5px;
-	margin-left: 1px;
-	margin-right: 90px;
 	font-size: 10pt;
 }
 footer{
