@@ -108,7 +108,7 @@ a:hover, a:active {
 .feature{
 	font-family: apple-chancery, sans-serif, Arial, Helvetica;
 	color: #444;
-	font-size: 17pt;
+	font-size: 15pt;
 	line-height: 1;
 	letter-spacing: 1.5px;
 	text-align: left;
@@ -194,12 +194,9 @@ h3{
 }
 div .imageleft{
 	float: left;
-	display: inline;
-	clear: all;
-	padding-top: 20px;
-	text-align: center;
-	font-size: 12pt;
-	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
+	display: inline-block;
+	padding-top: 1px;
+	
 }
 aside {
 	display: inline;
@@ -208,9 +205,10 @@ aside {
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
-	padding-right: 25px;
-	padding-left: 4px;
+	padding-right: 15px;
+	padding-left: 1px;
 	font-size: 10pt;
+
 }
 .about2{
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
