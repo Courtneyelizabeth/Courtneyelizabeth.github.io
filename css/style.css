@@ -11,9 +11,6 @@ body{
 
 	vertical-align: baseline;
 }
-figcaption, figure, footer, header, nav, aside,{
-	display: block;
-}
 
 .header {
 	padding: 45px;
@@ -111,27 +108,20 @@ a:hover, a:active {
 .feature{
 	font-family: apple-chancery, sans-serif, Arial, Helvetica;
 	color: #444;
-	font-size: 22pt;
-	line-height: 2;
+	font-size: 17pt;
+	line-height: 1;
 	letter-spacing: 1.5px;
-	padding-right: 15px;
-	padding-left: 20px;
+	text-align: left;
+	margin-left: 25px;
 }
 .about{
+	float: right;
+	width: 600px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
 	letter-spacing: 0.2px;
 	line-height: 1.5;
 	padding-right: 25px;
 	padding-left: 25px;
-}
-.quote img{
-	float: left;
-}
-
-.quote aside{
-	text-align: right;
-	font-family: apple-chancery, sans-serif, arial, Helvetica;
-	line-height: 1.7;
 	font-size: 10pt;
 }
 footer{
@@ -186,13 +176,7 @@ figure {
 	color: #444;
 	letter-spacing: 1.2px;
 }
-.fgallery img{
-	display: inline; 
-	width: 40%;
-	max-height: 40%;
-	margin: 0px;
 
-}
 h1{
 	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
 	text-align: center; 
@@ -207,4 +191,30 @@ h1{
 
 h3{
 	padding-bottom: 20px;
+}
+div .imageleft{
+	float: left;
+	clear: all;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 12pt;
+	font-family: Heiti Tc, Sans-serif, arial, Helvetica;
+}
+aside {
+	float: right;
+	width: 600px;
+	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	padding-right: 25px;
+	padding-left: 4px;
+	font-size: 10pt;
+}
+.about2{
+	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	padding-right: 25px;
+	padding-left: 4px;
+	font-size: 10pt;
 }
