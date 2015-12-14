@@ -107,18 +107,15 @@ a:hover, a:active {
   	padding-top: 20px;
 }
 .feature{
-	font-family: apple-chancery, sans-serif, Arial, Helvetica;
+	font-family: Heiti tc, sans-serif, Arial, Helvetica;
 	color: #444;
-	font-size: 11pt;
+	font-size: 18pt;
 	line-height: 1;
 	letter-spacing: 1.5px;
 	text-align: left;
-	margin-left: 50px;
+	margin-left: 150px;
 }
 .about{
-	float: right;
-	width: 600px;
-	height: 400px;
 	padding: 5px;
 	margin: 10px;
 	font-family: Heiti Tc, sans-serif, Arial, Helvetica;
@@ -207,7 +204,5 @@ h3{
 	margin-left: 10px;
 
 }
-.imageleft {
-	padding-right: 1px;
-}
+
 
