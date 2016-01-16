@@ -1,10 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300|Open+Sans|Playfair+Display:700italic|Poiret+One);
+
+
 /* ---- =structure ---- */
+
+
 header {
 	height: 100px;
-	background-color: #bcbcbc;
+	background-color: #fff;
 }
 
-main {
+body {
 	
 }
 .wrapper {
@@ -12,10 +17,47 @@ main {
 	margin: auto;
 }
 
+/* --- =logo ---*/
+
+header h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	color: #3c3f4d;
+	letter-spacing: .30px;
+	line-height: 29px;
+	text-transform: uppercase;
+}
+
+
+/* ---- =full background images ---*/
+
 img {
 	width: 100%;
 }
+
+/*---- =type ----*/
+
+li {
+	font-family: 'Raleway', sans-serif; 
+}
+p{
+	font-family: 'Raleway', sans-serif;
+	color: #3b3f48;
+	letter-spacing: .4px;
+	line-height: 28px;
+	font-size: 16px;
+}
+h1 {
+	font-family: 'Playfair Display', serif;
+	color: #3c3f4d;
+	letter-spacing: .30px;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	color: #3c3f4d;
+}
 /* ---- =footer ----*/
+
 footer{
 	height: 50px;
 }
