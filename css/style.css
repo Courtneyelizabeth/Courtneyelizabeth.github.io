@@ -25,7 +25,14 @@ header h1 {
 	color: #3c3f4d;
 	letter-spacing: .30px;
 	line-height: 29px;
-	text-transform: uppercase;
+}
+
+/* --- =navigation ----*/
+
+/* ---- =footer ----*/
+
+footer{
+	height: 50px;
 }
 
 
@@ -56,10 +63,18 @@ h2 {
 	font-family: 'Playfair Display', serif;
 	color: #3c3f4d;
 }
-/* ---- =footer ----*/
 
-footer{
-	height: 50px;
+a:link: {
+	color: #000000;
+}
+a:visited {
+	color: #3b3f48;
+}
+a:hover {
+	color: #e7d3cd;
+}
+a:active {
+	color: #3c3f4d;
 }
 
 
