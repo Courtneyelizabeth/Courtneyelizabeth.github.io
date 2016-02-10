@@ -3,37 +3,70 @@
 
 /* ---- =structure ---- */
 
-
+body {
+	
+}
 header {
 	height: 100px;
 	background-color: #fff;
 }
-
-body {
-	
+#content {
+	padding-top: 60px;
+	min-height: 400px;
+}
+footer{
+	height: 50px;
 }
 .wrapper {
-	width: 900px;
+	width: 980px;
 	margin: auto;
 }
 
 /* --- =logo ---*/
 
 header h1 {
-	font-family: 'Playfair Display', serif;
-	font-size: 42px;
+	font-family: 'Raleway', serif;
+	font-size: 36px;
+	float: left;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
 	color: #3c3f4d;
 	letter-spacing: .30px;
 	line-height: 29px;
 }
+header h1 a {
+	text-decoration: none;
+}
+header h1 a:hover {
+	color: #9AA0A9;
+}
 
 /* --- =navigation ----*/
-
-/* ---- =footer ----*/
-
-footer{
-	height: 50px;
+#top-nav {
+	float: right;
+	margin-top: 72px;
 }
+#top-nav ul{
+	margin: 0;
+	list-style: none;
+}
+#top-nav ul li {
+	display: inline-block;
+	margin-left: 40px;
+}
+#top-nav ul li a {
+	font-size: 15px;
+	color: #424354;
+	text-decoration: none;
+}
+#top-nav ul li a:hover {
+	color: #9AA0A9;
+}
+/* ---- =footer ----*/
+footer {
+	text-align: center;
+}
+
 
 
 /* ---- =full background images ---*/
@@ -44,9 +77,6 @@ img {
 
 /*---- =type ----*/
 
-li {
-	font-family: 'Raleway', sans-serif; 
-}
 p{
 	font-family: 'Raleway', sans-serif;
 	color: #3b3f48;
@@ -55,15 +85,17 @@ p{
 	font-size: 16px;
 }
 h1 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', serif;
 	color: #3c3f4d;
 	letter-spacing: .30px;
 }
 h2 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', serif;
 	color: #3c3f4d;
 }
-
+li {
+	font-family: 'Raleway', sans-serif; 
+}
 a:link: {
 	color: #000000;
 }
@@ -71,7 +103,7 @@ a:visited {
 	color: #3b3f48;
 }
 a:hover {
-	color: #e7d3cd;
+	color: #9AA0A9;
 }
 a:active {
 	color: #3c3f4d;
