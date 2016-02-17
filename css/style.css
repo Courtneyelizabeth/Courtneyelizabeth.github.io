@@ -77,12 +77,12 @@ footer {
 	width:100%;
 }
 .full-width-image{
-	height: 400px;
-	background: url("../../images/trees.jpg")center center no-repeat;
+	height: 500px;
+	background: url("../../images/steamboat.jpg")center center no-repeat;
 	background-size: cover;
 	margin: 10px 0;
 	border-top: 1px solid #8f99a4;
-	border-bottom: 1px solid #8f99a4;
+	border-bottom: 1px solid #fff;
 }
 /*---- =type ----*/
 
