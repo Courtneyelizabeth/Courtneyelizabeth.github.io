@@ -9,6 +9,19 @@
   <link rel="stylesheet" type="text/css"
   href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
   <link href="style.css" rel="stylesheet"/>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+var mapCanvas = document.getElementById('map');
+var mapOptions = {
+  center: new google.maps.LatLng(48.856614, 2.352222),
+  zoom: 10,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+}
+var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
 </head>
 <body>
   <header>
@@ -20,6 +33,7 @@
   				<li><a href="webdesign.html">Web Design</a></li>
   				<li><a href="contact.html">Contact</a></li>
   				<li><a href="about.html">About</a></li>
+          <li><a href="snowreport.html">Snow Report</a></li>
   			</ul>
       </nav>
     </div>	<!-- end header wrapper -->
@@ -28,16 +42,9 @@
 	<div id="content">
 
     <div class="wrapper">
+      <div id="map"></div>
       <div class="row">
-        <div class="full_column">
-          <img src="../projects/images/home/contact.jpg" class="float-right" width="500" alt="Profile of me laughing with my husband on our wedding day">
-          <h2 class="center">I want to hear from you!</h2>
-          <p>Please feel free to drop me a line at <b>hecklercourtney@gmail.com</b></p>
-          <p>If you are inquiring about a website, please include a little about what you are looking for.</p>
-          <p>If you are looking for a photographer, please include a few dates, and what your overall vision is!</p>
-          <p>I always reply to my email within 24hrs. Or, feel free to give me a call, 720.284.7848.
-        </div><!-- end full_column -->
-      </div> <!-- end row -->
+
     </div><!-- end wrapper -->
   </div> <!-- end content --->
 
