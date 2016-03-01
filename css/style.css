@@ -8,8 +8,9 @@ header {
 	background-color: #fff;
 }
 #content {
-	padding-top: 60px;
+	padding-top: 50px;
 	min-height: 400px;
+	/*border: 1px solid green;*/
 }
 footer {
 	height: 5px;
@@ -19,7 +20,7 @@ footer {
 .wrapper {
 	width: 980px;
 	margin: auto;
-/*	border: 1px solid red;*/
+	/*border: 1px solid red;*/
 }
 .wrapper:after {
 	content: "";
@@ -73,14 +74,7 @@ footer {
 .full-width{
 	width:100%;
 }
-/*.full-width-image{
-	height: 500px;
-	background: url("../../images/steamboat.jpg")center center no-repeat;
-	background-size: cover;
-	margin: 10px 0;
-	border-top: 1px solid #8f99a4;
-	border-bottom: 1px solid #fff;
-}*/
+
 /*---- =type ----*/
 
 p{
@@ -171,14 +165,4 @@ a:active {
 	content: " ";
 	display: table;
 	clear: both;
-}
-
-/* =button --*/
-.button {
-	color: #9AA0A9;
-	border: 1px #9AA0A9 solid;
-	background-color: #fff;
-	padding: 5px 10px;
-	border-radius: 5px;
-	text-decoration: none;
 }
