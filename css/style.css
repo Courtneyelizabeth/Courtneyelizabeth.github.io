@@ -166,3 +166,37 @@ a:active {
 	display: table;
 	clear: both;
 }
+/*-- map --*/
+#map, #mapTwo {
+  width: 900px;
+  height: 500px;
+  background-color: #CCC;
+  margin: 0 auto;
+}
+
+#map {
+	float: left;
+  display: inline-block;
+	margin-left: 125px;
+	clear: both;
+}
+/*-- table --*/
+th, td {
+    padding: 10px;
+		font-family: 'Playfair Display', serif;
+		color: #3c3f4d;
+		font-size: 15px;
+	  letter-spacing: .6px;
+	  line-height: 20px;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+table {
+    width: 30%;
+}
+
+th {
+    height: 10px;
+}
