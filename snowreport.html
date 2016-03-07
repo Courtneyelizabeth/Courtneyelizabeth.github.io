@@ -9,13 +9,11 @@
 	<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css"
 		href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
+
 		<link href="style.css" rel="stylesheet"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </head>
 <body>
   <header>
@@ -27,7 +25,7 @@
   				<li><a href="webdesign.html">Web Design</a></li>
   				<li><a href="photography.html">Contact</a></li>
   				<li><a href="about.html">About</a></li>
-					<li><a href="snowreport.html">Snow Report</a></li>
+					<li><a href="snowreport.html">Ski</a></li>
   			</ul>
       </nav>
     </div>	<!-- end header wrapper -->
@@ -36,57 +34,25 @@
 </head>
 <div id="content">
   <div class="wrapper">
-    <h1 id="title">Ski Resorts Locator</h1>
-      <div id="map"></div>
+    <h1 id="title" class="center">Ski Forecast</h1>
+			<div class="row">
 
-<div id ="form">
-    Choose a location:
-    <input type ="text" id ="address">
-    <input type ="button" value = "Find the nearest Ski Resort!" id = "button">
-</div>
-
-<table>
-    <tr>
-        <td>Ski Resort Name:</td>
-        <td id = "SkiResortName"></td>
-    </tr>
-</table>
-<script>
-
-    function initialize() {
-  var mapCanvas = document.getElementById('map');
-  var mapOptions = {
-    center: new google.maps.LatLng(47.376887, 8.541694),
-    zoom: 15,
-    mapTypeId: google.maps.MapTypeId.TERRAIN
-  }
-  var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-<h2><b>Ski Resort Forecast</b></h2>
-<table>
-<tr>
-  <th>Resort</th>
-  <th>Weather</th>
-</tr>
-<tr>
-  <td>Murren</td>
-</tr>
-<tr>
-  <td>Aspen Highlands</td>
-</tr>
-<tr>
-  <td>Jackson Hole</td>
-</tr>
-<tr>
-  <td>Arapahoe Basin</td>
-</tr>
-<tr>
-  <td>Whistler Blackcomb</td>
-</tr>
-</table>
-
+      		<div id="map"></div>
+						<div class="center">
+							<h3 id="city"></h3>
+								<p id="temp">&#8457;</p>
+								<p id="description">Current Weather Description</p>
+								<p id="wind">wind degree: </p>
+						</div>
+				</div><!-- end row-->
+		<!--<div class="row">
+				<div id="map"></div>
+					<div class="center">
+						<h3 id="city2"></h3>
+							<p id="description2">Current Weather Description</p>
+							<p id="temp2">&#8457;</p>
+					</div>-->
+		</div><!--end row-->
   </div><!--end wrapper-->
 </div><!--end content-->
 <footer>
@@ -96,5 +62,21 @@ google.maps.event.addDomListener(window, 'load', initialize);
   </div> <!-- end footer wrapper -->
 </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="weather.js"></script>
+<script>
+
+    function initialize() {
+  var mapCanvas = document.getElementById('map');
+  var mapOptions = {
+    center: new google.maps.LatLng(39.186275,-106.818248),
+    zoom: 13,
+    mapTypeId: google.maps.MapTypeId.TERRAIN
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </body>
 </html>
