@@ -167,14 +167,14 @@ a:active {
 	clear: both;
 }
 /*-- map --*/
-#map, #mapTwo {
+#map, #map2 {
   width: 500px;
   height: 400px;
   background-color: #fff;
   margin: 0 auto;
 }
 
-#map {
+#map, #map2 {
 	float: left;
   display: inline-block;
 	margin-left: 110px;
