@@ -20,7 +20,7 @@ footer {
 .wrapper {
 	width: 980px;
 	margin: auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .wrapper:after {
 	content: "";
