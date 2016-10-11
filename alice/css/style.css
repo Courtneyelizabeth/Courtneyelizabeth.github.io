@@ -1,0 +1,380 @@
+/**********************************************
+GENERAL
+***********************************************/
+.wrapper{
+  margin: 2% auto;
+  width: 95%;
+  /*border: 1px solid red;*/
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: #5f336e;
+  text-align: center;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 1em;
+}
+h4{
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+}
+h5{
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  color: #d3d3d3;
+  font-size: 11px;
+}
+p{
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5em;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #4b3937;
+}
+
+a{
+  text-decoration: none;
+  /*color: #7c8372;*/
+  color: #5e7a88;
+}
+a:hover{
+  color: #d8aaad;
+}
+
+/* Style */
+#page-photo{
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 50px;
+  max-width: 50%;
+}
+#chapter-photo{
+  float: left;
+  max-width: 50%;
+}
+#chapter-photo-right{
+  float: right;
+  max-width: 50%;
+}
+#stars{
+  font-size: 1.5em;
+  letter-spacing: 23px;
+  text-align: center;
+}
+#talking{
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #747785;
+}
+
+/*TITLE*/
+
+#title{
+  text-transform: uppercase;
+  text-align: center;
+  margin: 100px 0 20px 0;
+  color: #4b3937;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  clear: both;
+}
+
+/*table*/
+#chapters{
+  font-family: 'Quicksand', serif;
+  font-size: 1em;
+  line-height: 2em;
+  text-transform: uppercase;
+  color:#5f336e;
+}
+
+/**********************************************
+INDEX
+***********************************************/
+.contents{
+  text-align: center;
+  list-style: none;
+  text-transform: uppercase;
+}
+/*Chapter 3 */
+#tail1{
+  margin-left: 25%;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #d56759;
+}
+#tail2{
+  margin-left: 28%;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #d56759;
+}
+#tail3{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #d56759;
+}
+#tail4{
+  margin-left: 38%;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #d56759;
+}
+#tail5{
+  margin-left: 38%;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #d56759;
+}
+#tail6{
+  margin-left: 35%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail7{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail8{
+  margin-left: 30%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail9{
+  margin-left: 27%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail10{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail11{
+  margin-left: 37%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail12{
+  margin-left: 38%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail13{
+  margin-left: 39%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail14{
+  margin-left: 43%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail15{
+  margin-left: 44%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail16{
+  margin-left: 39%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail17{
+  margin-left: 38%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail18{
+  margin-left: 36%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+
+#tail19{
+  margin-left: 35%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail20{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail21{
+  margin-left: 34%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail22{
+  margin-left: 36%;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #d56759;
+}
+#tail23{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #d56759;
+}
+#tail24{
+  margin-left: 29%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail25{
+  margin-left: 26%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail26{
+  margin-left: 29%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+
+#tail27{
+  margin-left: 31%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+
+#tail28{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+
+#tail29{
+  margin-left: 36%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail30{
+  margin-left: 36%;
+  font-family: sans-serif;
+  font-size: 11px;
+  color: #d56759;
+}
+#tail31{
+  margin-left: 30%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail32{
+  margin-left: 25%;
+  font-family: sans-serif;
+  font-size: 9px;
+  color: #d56759;
+}
+#tail33{
+  margin-left: 25%;
+  font-family: sans-serif;
+  font-size: 9px;
+  color: #d56759;
+}
+#tail34{
+  margin-left: 27%;
+  font-family: sans-serif;
+  font-size: 9px;
+  color: #d56759;
+}
+#tail35{
+  margin-left: 30%;
+  font-family: sans-serif;
+  font-size: 9px;
+  color: #d56759;
+}
+#tail36{
+  margin-left: 34%;
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #d56759;
+}
+#tail37{
+  margin-left: 37%;
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #d56759;
+}
+#tail38{
+  margin-left: 36%;
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #d56759;
+}
+#tail39{
+  margin-left: 34%;
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #d56759;
+}
+#tail40{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 8px;
+  color: #d56759;
+}
+#tail41{
+  margin-left: 29%;
+  font-family: sans-serif;
+  font-size: 7px;
+  color: #d56759;
+}
+#tail42{
+  margin-left: 31%;
+  font-family: sans-serif;
+  font-size: 7px;
+  color: #d56759;
+}
+#tail43{
+  margin-left: 33%;
+  font-family: sans-serif;
+  font-size: 7px;
+  color: #d56759;
+}
+#tail44{
+  margin-left: 35%;
+  font-family: sans-serif;
+  font-size: 7px;
+  color: #d56759;
+}

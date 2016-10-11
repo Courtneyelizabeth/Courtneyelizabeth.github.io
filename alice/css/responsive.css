@@ -1,0 +1,31 @@
+@media screen and (min-width: 480px) {
+  .primary{
+    width: 50%;
+    float: left;
+  }
+  .secondary{
+    width: 50%;
+    float: right;
+  }
+  .divider{
+    border: 1px solid black;
+    left: 50%;
+    top: 10%;
+    bottom: 10%;
+    position:absolute;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+
+  /*header{
+    margin-bottom: 20px;
+  }*/
+}
