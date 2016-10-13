@@ -192,6 +192,14 @@ a:link{
   padding-bottom: 15px;
 }
 
+/* -- form -- */
+form{
+  font-size: 13px;
+  padding: 20px 0;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+}
+
 /* -- footer --*/
 footer{
   font-size: 11px;
