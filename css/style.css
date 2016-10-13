@@ -20,7 +20,7 @@ body{
 
 .jumbotron h1{
   font-family: 'Dosis', sans-serif;
-  color: #000;
+  color: #fff;
   margin: 0;
   text-transform: uppercase;
   font-size: 30px;
@@ -29,7 +29,7 @@ body{
 
 .jumbotron h3{
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: #fff;
   font-weight: 300;
   font-size: 19px;
   padding-top: 50px;
@@ -49,7 +49,7 @@ body{
 }
 nav a{
   font-size: 10px;
-  color: #000;
+  color: #fff;
   padding-right: 6px;
   padding-left: 6px;
   letter-spacing: 1.5px;
@@ -179,6 +179,17 @@ a:link{
   font-size: 15px;
   line-height: 25px;
   padding-bottom: 60px;
+}
+
+#party img{
+
+  width: 30px;
+  height: 30px;
+}
+#party ul{
+  list-style: none;
+  padding-left: 5px;
+  padding-bottom: 15px;
 }
 
 /* -- footer --*/
