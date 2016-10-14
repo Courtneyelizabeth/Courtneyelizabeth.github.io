@@ -1,0 +1,229 @@
+body{
+  background-color: #fff;
+}
+
+
+/* --header-- */
+.jumbotron{
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+
+.jumbotron .small h1 {
+  font-family: 'Dosis', sans-serif;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.jumbotron h1{
+  font-family: 'Dosis', sans-serif;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 50px;
+}
+
+.jumbotron h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-weight: 300;
+  font-size: 19px;
+  padding-top: 50px;
+}
+
+#hero{
+  background: url(../images/hero.jpg) no-repeat center center;
+  display: flex;
+  align-items: center;
+  height: 635px;
+  background-size: cover;
+  background-image: 100%;
+  background-image: no-repeat;
+  background-color:#000;
+  background-attachment: fixed;
+  margin-bottom: 150px;
+}
+nav a{
+  font-size: 10px;
+  color: #000;
+  padding-right: 6px;
+  padding-left: 6px;
+  letter-spacing: 1.5px;
+}
+nav a:hover{
+  color: #e0e0e0;
+}
+a:link{
+  text-decoration: none;
+}
+
+.navbar-fixed-top{
+  padding-top: 20px;
+  padding-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+/* -- portfolio --*/
+#portfolio{
+  font-family: 'Dosis', sans-serif;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 9px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+#collection{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 60px;
+}
+#gallery1{
+  width: 100%;
+  position: relative;
+  left:-14px;
+  margin-right: 0px;
+}
+#gallery2{
+  float: left;
+  width: 100%;
+}
+#gallery3{
+  position: relative;
+  right: -14px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.col-sm-4{
+  padding-top: 15px;
+}
+.col-sm-12 img{
+  max-width: 100%;
+  padding-top: 10px;
+  background-repeat: no-repeat;
+}
+#gallery4{
+  width: 100%;
+  position: relative;
+  left:-14px;
+  margin-right: 0px;
+}
+#gallery5{
+  float: left;
+  width: 100%;
+}
+#gallery6{
+  position: relative;
+  right: -14px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.img-thumbnail{
+  background-color: #fff;
+}
+.img-thumbnail:hover{
+  opacity: 0.5;
+
+}
+
+/* -- about me --*/
+#container3{
+  margin-bottom: 0px;
+}
+#about-me{
+  font-family: 'Dosis', sans-serif;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 9px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+#about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+}
+#qoute{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+/* -- contact me -- */
+#connect{
+  font-family: 'Dosis', sans-serif;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 9px;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+#container4{
+  padding-bottom: 300px;
+}
+#contact{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 60px;
+}
+
+#party img{
+  width: 60px;
+  height: 60px;
+}
+
+#party li{
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#social li{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+#social a{
+  color: #000;
+}
+#social a:hover{
+  color: #86DCC2;
+}
+#info{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 25px;
+}
+#info a{
+  color: #000;
+}
+#info a:hover{
+  color: #86DCC2;
+}
+
+
+/* -- footer --*/
+footer{
+  font-size: 11px;
+  padding: 20px 0;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 5px;
+}
