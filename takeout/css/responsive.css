@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px){   /*if screen is larger than 480px than this style*/
+ /*********************************
+ TWO COLUMN LAYOUT
+ **********************************/
+ #primary {
+   width: 50%;
+   float: left;
+ }
+ #secondary {
+   width: 50%;
+   float: right; /*incase there are some weird browser issues*/
+ }
+}
