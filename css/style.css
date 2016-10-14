@@ -160,7 +160,7 @@ a:link{
 }
 
 /* -- contact me -- */
-#contact-me{
+#connect{
   font-family: 'Dosis', sans-serif;
   color: #000;
   font-size: 18px;
@@ -182,23 +182,43 @@ a:link{
 }
 
 #party img{
-
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
 }
-#party ul{
+
+#party li{
   list-style: none;
-  padding-left: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
-/* -- form -- */
-form{
+#social li{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 13px;
-  padding: 20px 0;
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 5px;
+  line-height: 25px;
+  text-transform: uppercase;
 }
+#social a{
+  color: #000;
+}
+#social a:hover{
+  color: #86DCC2;
+}
+#info{
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 25px;
+}
+#info a{
+  color: #000;
+}
+#info a:hover{
+  color: #86DCC2;
+}
+
 
 /* -- footer --*/
 footer{
@@ -206,18 +226,4 @@ footer{
   padding: 20px 0;
   font-family: 'Dosis', sans-serif;
   letter-spacing: 5px;
-}
-
-footer .col-sm-8{
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul{
-  list-style: none;
-}
-
-footer li img{
-  width: 20px;
-  height: 20px;
 }
