@@ -1,7 +1,7 @@
 var aspen = {
   "async": true,
   "crossDomain": true,
-  "url": "https://api.openweathermap.org/data/2.5/group?id=5582371,5412230&units=metric&appid=2cf669fd8a60ec333738f29801599eee",
+  "url": "http://api.openweathermap.org/data/2.5/group?id=5582371,5412230&units=metric&appid=2cf669fd8a60ec333738f29801599eee",
   "method": "GET"
 }
 
