@@ -10,9 +10,26 @@ body{
   max-width: 100%;
 }*/
 
+.navbar-default {
+  background: transparent;
+  border: none;
+  transition: 0.2s all linear;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+.navbar-default.change-color {
+  background-color: #fff;
+  /*-webkit-box-shadow: 0px 0px 4px 0px rgba(224,224,224,1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(224,224,224,1);
+  box-shadow: 0px 0px 4px 0px rgba(224,224,224,1);*/
+}
+
 .jumbotron .small h1 {
   font-family: 'Dosis', sans-serif;
-  color: #000;
+  color: #fff;
   margin: 0;
   text-transform: uppercase;
   font-size: 20px;
@@ -21,7 +38,7 @@ body{
 
 .jumbotron h1{
   font-family: 'Dosis', sans-serif;
-  color: #000;
+  color: #fff;
   margin: 0;
   text-transform: uppercase;
   font-size: 23px;
@@ -30,7 +47,7 @@ body{
 
 .jumbotron h3{
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  color: #fff;
   font-weight: 300;
   font-size: 10px;
   letter-spacing: 1.5px;
@@ -39,7 +56,7 @@ body{
 
 .jumbotron h2{
   font-family: 'Dosis', sans-serif;
-  color: #000;
+  color: #fff;
   margin: 0;
   text-transform: uppercase;
   font-size: 20px;
@@ -67,17 +84,17 @@ body{
   background-color:#000;
   margin-bottom: 150px;
 }
-nav a{
+.navbar-fixed-top a{
   font-size: 10px;
   color: #000;
   padding-right: 6px;
   padding-left: 6px;
   letter-spacing: 1.5px;
 }
-nav a:hover{
+.navbar-fixed-top a:hover{
   color: #e0e0e0;
 }
-a:link{
+.navbar-fixed-top a:link{
   text-decoration: none;
 }
 
