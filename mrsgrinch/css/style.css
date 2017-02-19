@@ -1,13 +1,12 @@
 .wrapper{
-  margin: 12% auto;
-  width: 95%;
+  margin: 10% auto;
+  width: 55%;
   /*border: 1px solid red;*/
 }
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Quicksand', serif;
   color: #000;
   text-align: center;
-  text-transform: uppercase;
 }
 h2{
   font-family: 'Playfair Display', serif;
@@ -65,7 +64,7 @@ a:hover{
 }
 
 #talking{
-  font-size: 29px;
+  font-size: 18px;
   text-align: center;
   letter-spacing: 5px;
   color: #000;
@@ -74,7 +73,6 @@ a:hover{
 /*TITLE*/
 
 #title{
-  text-transform: uppercase;
   text-align: center;
   margin: 100px 0 20px 0;
   color: #4b3937;
